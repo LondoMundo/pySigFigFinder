@@ -1,3 +1,4 @@
+from time import sleep
 numb=str(raw_input())
 numb = numb+"t"
 print numb
@@ -19,6 +20,7 @@ for i in numb:
         zeroCounter=0
 
 print sigfig
+sleep(10)
 
 
 
